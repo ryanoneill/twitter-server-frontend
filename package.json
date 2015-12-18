@@ -19,12 +19,19 @@
   "dependencies": {
     "ramda": "^0.18.0",
     "react": "^0.14.3",
+    "react-bootstrap": "^0.28.1",
+    "react-dom": "^0.14.3",
     "react-redux": "^4.0.1",
     "redux": "^3.0.5"
   },
   "devDependencies": {
+    "babel-core": "^5.6.18",
+    "babel-loader": "^5.1.4",
+    "babel-plugin-react-transform": "^1.1.1",
     "enzyme": "^1.2.0",
     "mocha": "^2.3.4",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.0",
     "webpack": "^1.12.9"
   }
 }
