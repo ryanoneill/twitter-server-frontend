@@ -1,8 +1,8 @@
 var combineReducers = require('redux').combineReducers;
-var fake = require('./fake');
+var toggle = require('./toggle');
 
 var rootReducer = combineReducers({
-  fake: fake
+  toggle: toggle
 });
 
 module.exports = rootReducer;

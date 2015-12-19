@@ -1,0 +1,7 @@
+var OPEN_MENU = 'OPEN_MENU';
+var CLOSE_MENU = 'CLOSE_MENU';
+
+module.exports = {
+  OPEN_MENU: OPEN_MENU,
+  CLOSE_MENU: CLOSE_MENU
+};

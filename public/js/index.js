@@ -1,9 +1,4 @@
 $(document).ready(function() {
-  $("#toggle").click(function(e) {
-    e.preventDefault();
-    $("#wrapper").toggleClass("toggled");
-    $("#toggle span").toggleClass("glyphicon-chevron-right");
-  })
 
   $("nav li span.glyphicon").click(function() {
     $(this).parent().find('ul').slideToggle()
